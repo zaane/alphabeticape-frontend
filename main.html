@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>spelling bee</title>
+  <link rel="icon" href="https://www.nytimes.com/games-assets/v2/metadata/sb-favicon.ico?v=">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>Z|Games</header>
+  <main>
+    <div class="title-bar">
+    <span>(Not) Spelling Bee </span>
+    </div>
+    <div class="game-area">
+      <div class="toolbar">
+        <span>Stats</span>
+        <span>Yesterday's Answers</span>
+        <span>More v</span>
+      </div>
+      <div class="play-area">
+        <div class = "message-box">Nice!</div>
+        <div class="input-area">
+          <div class="styled-input"></div>
+          <!-- <input type="text" id="game-input" maxlength="33" autofocus></input> -->
+        </div>
+        <div class="honeycomb">
+          <!-- <div class="cell center variant accent-grave"">À</div> -->
+          <!-- <div class="cell center variable" role="button">A</div> -->
+          <!-- <div class="cell" style="--n: 1;" role="button">G</div> -->
+          <!-- <div class="cell" style="--n: 2;" role="button">B</div> -->
+          <!-- <div class="cell" style="--n: 3;" role="button">C</div> -->
+          <!-- <div class="cell" style="--n: 4;" role="button">D</div> -->
+          <!-- <div class="cell variant accent-acute" style="--n: 5;" role="button">É</div> -->
+          <!-- <div class="cell variant accent-grave" style="--n: 5;" role="button">È</div> -->
+          <!-- <div class="cell variable" style="--n: 5;" role="button">E</div> -->
+          <!-- <div class="cell" style="--n: 0;" role="button">F</div> -->
+        </div>
+        <div class="controls">
+          <button type="button" id="delete-button">Delete</button>
+          <button type="button" id="shuffle-button">↻</button>
+          <button type="button" id="submit-button">Enter</button>
+        </div>
+      </div>
+      <div class="status-area">
+        <div class="progress-bar-area">
+          <div class="progress-rank-title">Beginner</div>
+          <div class="progress-bar">
+            <div class="progress-line">
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot final"></div>
+            </div>
+            <div class="progress-marker" style="--rank: 0">
+              <span class="score">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="user-word-list">
+          <span class="status-message">You have found 0 words.</span>
+          <ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>made by zaen</footer>
+ <script src="script.js"></script> 
+</body>
+</html>
